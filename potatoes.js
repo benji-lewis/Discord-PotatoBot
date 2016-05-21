@@ -4,7 +4,7 @@ var mybot = new Discord.Client();
 
 mybot.on("message", function(message){
 	if(message.content === "potato")
-		mybot.reply(message, "Potatos are amazing!");
+		mybot.reply(message, "Potatoes are amazing!");
 });
 
 mybot.loginWithToken("token");
